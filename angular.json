@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "9b693bfd-ab49-4db5-8876-de6c1c579612"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -31,9 +34,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+  "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+  "node_modules/@fortawesome/fontawesome-free/scss/regular.scss",
+  "node_modules/@fortawesome/fontawesome-free/scss/brands.scss",
+  "node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
+  "node_modules/angular-bootstrap-md/assets/scss/mdb.scss",
+  "node_modules/animate.css/animate.css",
+  "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/hammerjs/hammer.min.js"
+            ]
           },
           "configurations": {
             "production": {

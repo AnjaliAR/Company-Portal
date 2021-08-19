@@ -1,0 +1,18 @@
+<a [routerLink]="[index]" class="list-group-item clearfix">
+  <div class="content">
+    <div class="left">
+      <img
+        [src]="company.logo"
+        alt="{{ company.logo }}"
+        class="img-responsive"
+        style="max-height: 50px; border-radius: 100%"
+      />
+    </div>
+    <div class="right">
+      <h6 class="list-group-item-heading">{{ company.name }}</h6>
+      <p class="list-group-item-next" style="font-size: 10px;">
+        {{ company.typeOfCompany }} {{ company.followers }}
+      </p>
+    </div>
+  </div>
+</a>

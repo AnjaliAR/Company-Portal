@@ -1,0 +1,24 @@
+
+<div class="company-list">
+   <h6>People also viewed</h6>
+      <app-company-item *ngFor="let company of companies;let i=index" [index]="i" [company]="company" ></app-company-item>
+</div>
+<div class="lists">
+   <div class="row">
+      <div class="col-xs-4">About</div>
+      <div class="col-xs-4">Accessibility</div>
+      <div class="col-xs-4">Help centre</div>
+   </div>
+   <div class="row">
+      <div class="col-xs-8">Privacy & Terms</div>
+      <div class="col-xs-4">Ad Choices</div>
+   </div>
+   <div class="row">
+      <div class="col-xs-5">Advertising</div>
+      <div class="col-xs-7">Business Services</div>
+   </div>
+   <div class="row">
+      <div class="col-xs-7">Get the linkedIn App</div>
+      <div class="col-xs-5">....</div>
+   </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="intro"> 
+    <div class="background" [ngStyle]="backGroundStyle">
+      <div class="logo">
+        <img [src]="company.logo" alt="">
+      </div>
+    </div>
+    <div class="section2"> 
+      <div class="details">
+        <h4>{{ company.name }}</h4>
+        <div style="font-size: 12px;"> {{company.description}} </div>
+        <div style="font-size: 8px;"> {{ company.typeOfCompany }}  {{company.street}} {{ company.followers }}</div>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-primary" ><i class="fa fa-eye" aria-hidden="true"></i>
+          Follow</button>
+        <button class="btn btn-secondary" style="margin-left: 10px;"><i class="fa fa-external-link" aria-hidden="true"></i>
+          Visit Website</button>
+        <button class="btn btn-highlight" style="margin-left: 10px;">...</button>
+      </div>
+    </div> 
+  </div>      
+<app-company-detail></app-company-detail>
